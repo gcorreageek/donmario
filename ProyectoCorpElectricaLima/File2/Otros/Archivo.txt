@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+Main-Class: primero.Prueba
+Class-Path: jar/calendar.jar jar/logo.jar jar/mysql-connector-java-5.0.8-bin.jar jar/commons-logging-1.1.jar jar/dom4j-1.6.1.jar jar/geronimo-stax-api_1.0_spec-1.0.jar jar/junit-3.8.1.jar jar/log4j-1.2.13.jar jar/poi-3.6-20091214.jar jar/poi-contrib-3.6-20091214.jar jar/poi-examples-3.6-20091214.jar jar/poi-ooxml-3.6-20091214.jar jar/poi-ooxml-schemas-3.6-20091214.jar jar/poi-scratchpad-3.6-20091214.jar jar/xmlbeans-2.3.0.jar jar/mail.jar jar/EditorHTML.jar jar/Imagenes.jar 
+
+
+
+

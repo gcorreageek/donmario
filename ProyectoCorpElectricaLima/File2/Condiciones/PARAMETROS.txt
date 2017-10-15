@@ -1,0 +1,40 @@
+*[Codigo]=Codigo
+[Empresa]=Empresa
+[Nombre1]=Nombre de la primera persona
+[Correo1]=Correo de la primera persona
+[SexAO1]=Estimad[o(a)], Estimado[o],Estimado[a]  de la primera persona
+[Sexo1]=Sr[o(ta)],Sr[o],Sr[ta] de la primera persona
+**
+
+
+
+
+Estimad[SexAO1] Sr[Sexo1]. [Nombre1] de la empresa [Empresa],
+Es un placer para mi envitarlo austed y asu familia a nuestro compromiso de prueba.
+
+//Consulta para listado de clientes
+SELECT COD_CLI '[Codigo]',nom_cli '[Empresa]' ,cona_cli '[Nombre1]',
+TRIM(maila_cli)  as '[Correo1]',sex_cli '[SexAO]', sex_cli '[Sexo]'
+ FROM tb_cliente where cona_cli!='' and cona_cli!='0' and cona_cli!=' '
+  and maila_cli!='0' and maila_cli!='' and maila_cli!=' ' and locate('/',maila_cli)=0
+and locate(',',maila_cli)=0 and locate(' ',maila_cli)=0     ;
+
+
+
+
+
+*[Codigo1]=Codigo
+[Empresa1]=Empresa
+[Nombre1]=Nombre de la primera persona
+[ApellidoMaterno1]=Apellido Materno de la primera persona
+[ApellidoPaterno1]=Apellido Paterno de la primera persona
+[Correo1]=Correo de la primera persona
+[Sexo1]=Este se refiere al si poner Sr[ta] ó Sr[o]
+[SexoAO1]=Este se refiere en si poner  Estimad[a] ó Estimad[o]
+[Nombre2]=Nombre de la primera persona
+[ApellidoMaterno2]=Apellido Materno de la primera persona
+[ApellidoPaterno2]=Apellido Paterno de la primera persona
+[Correo2]=Correo de la primera persona
+[Sexo2]=Este se refiere al si poner Sr[ta] ó Sr[o]
+[SexoAO2]=Este se refiere en si poner  Estimad[a] ó Estimad[o]
+**

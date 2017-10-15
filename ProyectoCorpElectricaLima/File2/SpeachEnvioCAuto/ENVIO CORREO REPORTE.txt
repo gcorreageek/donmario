@@ -1,0 +1,91 @@
+<html o="urn:schemas-microsoft-com:office:office" m="http://schemas.microsoft.com/office/2004/12/omml" xmlns="http://www.w3.org/TR/REC-html40" w="urn:schemas-microsoft-com:office:word">
+  <head>
+    <style type="text/css">
+      <!--
+        a:visited { color: purple; text-decoration: underline }
+        li.msonormal { font-size: 11.0pt; margin-bottom: .0001pt; margin-top: 0cm; margin-right: 0cm; margin-left: 0cm; font-family: Calibri,sans-serif }
+        p.msonormal { font-size: 11.0pt; margin-bottom: .0001pt; margin-top: 0cm; margin-right: 0cm; margin-left: 0cm; font-family: Calibri,sans-serif }
+        a:link { color: blue; text-decoration: underline }
+        span.msohyperlink { color: blue; text-decoration: underline }
+        .MsoChpDefault { font-size: 10.0pt }
+        span.msohyperlinkfollowed { color: purple; text-decoration: underline }
+        div.msonormal { font-size: 11.0pt; margin-bottom: .0001pt; margin-top: 0cm; margin-right: 0cm; margin-left: 0cm; font-family: Calibri,sans-serif }
+      -->
+    </style>
+    
+  </head>
+  <body>
+    <p class="MsoNormal">
+      <font color="navy" face="Arial,sans-serif" size="2"><span lang="ES"><b><i>Estimad[Sexo] 
+      [Nombre]</i></b></span></font><font size="2"> </font>
+    </p>
+    <p class="MsoNormal">
+      <font color="navy" face="Arial,sans-serif" size="2"><span lang="ES"><br>
+      </span></font><span lang="ES">
+		<font color="#365F91" face="Arial,sans-serif" size="2"> Lo estuve llamando varias veces y no tuve el gusto  de poder comunicarme,
+		 espero que todo vaya muy bien y a la vez recuerde que siempre estamos para servirlos. 
+
+          </font></span> 
+    </p>
+    <p class="MsoNormal">
+    <font color="navy" face="Arial,sans-serif" size="2"><span lang="ES"><br>
+      </span></font><span lang="ES">
+		<font color="#365F91" face="Arial,sans-serif" size="2"> Cualquier novedad comun&#237;quese con toda confianza, muchas gracias.
+
+      </font></span> 
+    </p>
+    <p class="MsoNormal">
+      <font color="#365F91" face="Arial,sans-serif" size="2"><span lang="ES">&#160;</span></font><font size="2">
+		</font>
+    </p>
+    <p style="margin-bottom: 0pt; margin-top: 0pt">
+      <font face="Arial,sans-serif" size="3" color="#000080"><b><i>Saludos Cordiales</i></b> </font>
+    </p>
+    <p style="margin-bottom: 0pt; margin-top: 0pt">
+      <font color="#000080">
+      <font face="Arial,sans-serif" size="3"><span><b><i>[Vendedor]</i></b></span></font><font size="3">
+		</font></font>
+    </p>
+    <p style="margin-bottom: 0pt; margin-top: 0pt">
+      <font face="Arial,sans-serif" size="2">&#160; </font>
+    </p>
+    <p style="margin-bottom: 0pt; margin-top: 0pt">
+      <font face="Arial,sans-serif" size="2">&#160; </font>
+    </p>
+    <font face="Arial,sans-serif" size="2"><a target="_blank" href="http://www.corporacionelectricalima.com/"><img src="http://www.corporacionelectricalima.com/cabezerasyotros/logoparamensaje2.gif" alt="CORPORACION ELECTRICA LIMA">
+    </a></font>
+
+    <p style="margin-bottom: 0pt; margin-top: 0pt">
+      <font face="Arial,sans-serif" size="2" color="#000080"><b><i>&#160;</i></b> </font>
+    </p>
+    <p style="margin-bottom: 0pt; margin-top: 0pt">
+      <font face="Arial,sans-serif" size="2" color="#000080"><b><i>Corporaci&#243;n El&#233;ctrica Lima</i></b> 
+      </font>
+    </p>
+    <p style="margin-bottom: 0pt; margin-top: 0pt">
+      <font face="Arial,sans-serif" size="2" color="#000080">Ruc 20492885810 </font>
+    </p>
+    <p style="margin-bottom: 0pt; margin-top: 0pt">
+      <font face="Arial,sans-serif" size="2" color="#000080">RPM # 630911 # 630908 </font>
+    </p>
+    <p style="margin-bottom: 0pt; margin-top: 0pt">
+      
+    </p>
+    <p style="margin-bottom: 0pt; margin-top: 0pt">
+      <font face="Arial,sans-serif" size="2" color="#000080">Cel 99809 9460&#160; 99809 6092 </font>
+    </p>
+    <p style="margin-bottom: 0pt; margin-top: 0pt">
+      <font face="Arial,sans-serif" size="2" color="#000080">Nextel 818*3869&#160; 823*9230<br></font>
+    </p>
+    <font face="Arial,sans-serif" size="2" color="#000080">Telefax 540-1879&#160; 540-3863 </font>
+
+    <p style="margin-bottom: 0pt; margin-top: 0pt">
+      <font face="Arial,sans-serif" size="2" color="#000080"><a><b>corporacionelectricalima@gmail.com</b></a> 
+      </font>
+    </p>
+    <p style="margin-bottom: 0pt; margin-top: 0pt">
+      <font face="Arial,sans-serif" size="2"><a target="_blank" href="http://www.corporacionelectricalima.com/"><b>www.corporacionelectricalima.com</b></a> 
+      </font><br>
+    </p>
+  </body>
+</html>
