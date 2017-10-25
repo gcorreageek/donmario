@@ -701,7 +701,7 @@ FROM CAMBIO WHERE FECHA='2009-11-26');*/
 			} 
 			objMenu.setIconImage(new ImageIcon(cl.getResource("Images/kdmconfig.png")).getImage());
 			
-			objMenu.setTitle("CORPELIMA II S.A.C.");
+			objMenu.setTitle("CyE GLOBAL ELECTRIC S.A.C.");
 			
 			
 			

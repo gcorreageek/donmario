@@ -1,14 +1,12 @@
 package miLib;
 
-import java.awt.event.WindowAdapter;
-import java.awt.event.WindowEvent;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
-import javax.swing.JFrame;
+
 import javax.swing.JOptionPane;
 
 /*
@@ -35,13 +33,17 @@ public class AccesoBD {
 					//y la de daniel es 192.168.1.43 , donde en la
 					//maquina de la señora charo he puesto la 
 					// la ip de daniel asi: 192.168.1.43//255.255.255.0
-					"jdbc:mysql://192.168.0.20:3306/bd_cel2","casa","casa");//PONER ESTA PARA LA APLICACION
+					"jdbc:mysql://192.168.0.120:3306/bd_cel3","root","root");//PONER ESTA PARA LA APLICACION
+			//"jdbc:mysql://192.168.0.20:3306/bd_cel2","casa","casa");
+			
+			
 					//"jdbc:mysql://localhost:3306/bd_cel","root","admin");
 					 //"jdbc:mysql://72.55.174.111:3306/corplima_bd_cel","corplima_root","admin");
 					//"jdbc:mysql://192.168.1.41:3306/bd_avaintel","mario","admin");
 		
 		}catch(Exception e) {
 
+			e.printStackTrace();
 			JOptionPane.showMessageDialog(null, "No se pudo establecer conexion con la Base de Datos","",0);
 			System.out.println("Salir");
 			System.exit(0);

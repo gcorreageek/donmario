@@ -2583,6 +2583,7 @@ public  class TranCotizacionAutMant extends  JInternalFrame implements  MouseLis
 					objPasarExcelCorreo= new PasarExcelCorreo();
 					objPasarExcelCorreo.crearExcel(arregloCadenas1,arregloObjetos1);
 					rutaGlobal=objPasarExcelCorreo.fileGlobal;
+					System.out.println("la ruta global1:"+rutaGlobal);
 					valor=true;
 				} catch (FileNotFoundException e1) {
 					valor=false;
@@ -2592,9 +2593,11 @@ public  class TranCotizacionAutMant extends  JInternalFrame implements  MouseLis
 					valor=false;
 				}finally{
 					if(!valor){
+						System.out.println("Este es el error!");
 						objGUI.mostrarAviso("Hubo un ERROR!");
 					}
 				}
+				
 				if(devuelve){
 					ideCot=txtNroModificacion.getText();
 					numCot=txtNCotizacion.getText();
@@ -2604,6 +2607,7 @@ public  class TranCotizacionAutMant extends  JInternalFrame implements  MouseLis
 					objEnvioMail= new EnvioMail();
 					objEnvioMail.setVisible(false);
 					objEnvioMail.aMostrar();
+					System.out.println("la ruta global2:"+rutaGlobal);
 					objEnvioMail.envio1();//ESTE ES
 					
 					/**

@@ -1,8 +1,10 @@
 package miLib;
 import gui.TranCotizacionAutMant;
 
+import java.io.BufferedInputStream;
 import java.io.BufferedReader;
 import java.io.File;
+import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.FileReader;
 import java.io.IOException;
@@ -121,17 +123,18 @@ public class PasarExcelCorreo {
   	   wb = new HSSFWorkbook();
   	   arreglo_nombre=nombre;
   	   arreglo_datos=datos;
-         metodoCorreoCel();
+         metodoCorreoCel(p);
          System.out.println(arreglo_nombre[7]);
          String numCot=""+arreglo_nombre[7].toString();
          numCot=numCot.replaceAll("  ", "");
          numCot=numCot.replaceAll(" ", "");
          numCot=numCot.trim();
-         String fileRaiz="D:/ProyectoCEL/Cotizaciones/CotCorreo/";
+         String fileRaiz=p.getProperty("ruta");
          //String fileRaiz="//Mario/d/ProyectoCEM/Cotizaciones/CotCorreo/";
          String file =fileRaiz+numCot+"-"+cadena+"-"+ref+".xls";
          fileGlobal=file;
          // if(wb instanceof XSSFWorkbook) file += "x";
+         System.out.println("file===============================>:"+file);
   	         FileOutputStream out = new FileOutputStream(file);
   	         wb.write(out);
   	         out.close();
@@ -163,13 +166,13 @@ public class PasarExcelCorreo {
  	  
     }*/
     
-    public static void metodoCorreoCel() throws IOException{
+    public static void metodoCorreoCel(Propiedades p) throws IOException{
  	   CreationHelper createHiperVinculo = wb.getCreationHelper();
  	   Map<String, CellStyle> styles = createStyles(wb);
  	   ////////////////////////////////////////////////////////////////////////////////////////////
         /******************************************************************************************/
         /**************************************CORREO CEL******************************************/
-        Sheet sheet3 = wb.createSheet("CORREO CEL");
+        Sheet sheet3 = wb.createSheet("CORREO CEL1");
         PrintSetup printSetup3 = sheet3.getPrintSetup();
         printSetup3.setLandscape(true);
         sheet3.setFitToPage(true);
@@ -205,17 +208,37 @@ public class PasarExcelCorreo {
        //add picture data to this workbook.//Images/INICIO.GIF
        TranCotizacionAutMant objCot;
        objCot=new TranCotizacionAutMant();
+       
+       
+       
+       /*
+       
+       
        String imagen="";
        //Ruta para elegir la imagen del excel a mostrarse
-       imagen="Images/LOGOelecorp.jpg";
-       imagen="Images/LOGO.JPG";
+       //imagen=p.getProperty("rutaimgen");
        
+       imagen="\\\\Pc-mario\\d\\CONSORCIO ELECTRO MINERO EIRL\\PRUEBA1.jpg";
+//       System.out.println("imageN:"+imagen);
+       InputStream is = new BufferedInputStream(new FileInputStream(imagen));
        
-
-       InputStream is = (cl.getResourceAsStream(imagen));
+//       InputStream is = (cl.getResourceAsStream("Images/CONPORCIO.jpg"));
        byte[] bytes = IOUtils.toByteArray(is);
+       
+       
        int pictureIdx = wb.addPicture(bytes, Workbook.PICTURE_TYPE_JPEG);
        is.close();
+       */
+       InputStream inputStream = new FileInputStream("D:\\Gustavo\\Patern_test.jpg");
+       //Get the contents of an InputStream as a byte[].
+       byte[] bytes = IOUtils.toByteArray(inputStream);
+       //Adds a picture to the workbook
+       int pictureIdx = wb.addPicture(bytes, Workbook.PICTURE_TYPE_PNG);
+       //close the input stream
+       inputStream.close();
+       
+       
+       
        
        CreationHelper helper = wb.getCreationHelper();
        

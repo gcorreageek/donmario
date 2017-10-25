@@ -307,6 +307,7 @@ public class EnvioMail extends Ekit implements ActionListener, MouseListener, Ke
 		cc=objTranCotAutMant.correo2;
 		String asunto1=objTranCotAutMant.coti;
 		String archivo1=objExcCorreo.fileGlobal;
+		System.out.println("archivo1::::::::::::::::::"+archivo1);
 		String archivos_adjuntos=objTranCotAutMant.ruta;
 		String nombre_archivos_adjuntos=objTranCotAutMant.nombreArchivosAdjuntos;
 		
@@ -322,6 +323,8 @@ public class EnvioMail extends Ekit implements ActionListener, MouseListener, Ke
 			sCadenaInvertida = sCadenaInvertida + archivo1.charAt(x);
 		
 	    if(archivos_adjuntos.equals("")){
+	    	System.out.println("archivo1:"+archivo1);
+	    	System.out.println("sCadenaInvertida:"+sCadenaInvertida);
         	nombreRuta=archivo1.substring(archivo1.length()-sCadenaInvertida.indexOf("/",0), archivo1.length());
 		}else{
 					

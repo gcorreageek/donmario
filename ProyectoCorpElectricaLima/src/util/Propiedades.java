@@ -14,8 +14,7 @@ public class Propiedades {
 
 		properties = new Properties();
 		String ruta = ""; 
-		ruta = "//192.168.0.20/D/ProyectoCEL/archivo2.properties"; 
-		ruta = "//192.168.0.20/D/ProyectoCEM/archivo2.properties"; 
+		ruta = "//192.168.0.120/D/ProyectoCEM/archivo3.properties"; 
 		
 		
 
