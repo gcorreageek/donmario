@@ -33,7 +33,7 @@ public class AccesoBD {
 					//y la de daniel es 192.168.1.43 , donde en la
 					//maquina de la señora charo he puesto la 
 					// la ip de daniel asi: 192.168.1.43//255.255.255.0
-					"jdbc:mysql://192.168.0.120:3306/bd_cel3","root","root");//PONER ESTA PARA LA APLICACION
+					"jdbc:mysql://localhost:3306/bd_cel3","root","mysql");//PONER ESTA PARA LA APLICACION
 			//"jdbc:mysql://192.168.0.20:3306/bd_cel2","casa","casa");
 			
 			

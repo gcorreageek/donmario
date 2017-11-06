@@ -229,7 +229,7 @@ public class PasarExcelCorreo {
        int pictureIdx = wb.addPicture(bytes, Workbook.PICTURE_TYPE_JPEG);
        is.close();
        */
-       InputStream inputStream = new FileInputStream("D:\\Gustavo\\Patern_test.jpg");
+       InputStream inputStream = new FileInputStream(p.getProperty("rutaimgen"));
        //Get the contents of an InputStream as a byte[].
        byte[] bytes = IOUtils.toByteArray(inputStream);
        //Adds a picture to the workbook
